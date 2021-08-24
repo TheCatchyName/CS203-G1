@@ -1,5 +1,5 @@
-hi guys just a note<br> 
-i followed a course from udemy but i rushed it so i don't understand every single thing<br>
+Hi guys just a note<br> 
+i followed a course from udemy to get to this point but i rushed it so i don't understand every single thing<br>
 but i believe its enough for what we want to do :D<br>
 
 ## HOW TO RUN
@@ -9,10 +9,13 @@ if you notice there are two main files ### frontend and ### restful-web-services
 but basically just run 
 ### `npm start`
 
-if it doesn't work try 
-### `npm cache clean --force`
-### `npm rebuild`
-### `npm install`
+if it doesn't work try (in that order)
+`npm cache clean --force`
+`npm rebuild`
+`npm install`
+
+then run 
+### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
