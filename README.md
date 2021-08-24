@@ -4,8 +4,10 @@ but i believe its enough for what we want to do :D<br>
 
 ## HOW TO RUN
 
-if you notice there are two main files ### frontend and ### restful-web-services
-####frontend is run using REACT so when u click on it there will be another README file explaining how to run it.
+if you notice there are two main files 
+#### frontend & restful-web-services
+#### frontend 
+is run using REACT so when u click on it there will be another README file explaining how to run it.
 but basically just run 
 ### `npm start`
 
@@ -13,21 +15,14 @@ if it doesn't work try (in that order)
 `npm cache clean --force`
 `npm rebuild`
 `npm install`
-
 then run 
-### `npm start`
+`npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Then theres backend
+#### restful-web-services 
+resful-web-services/src/com/myapp/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
 
-but for this project i have set it to [http://localhost:4200](http://localhost:4200)*
+#### RestfulWebServicesApplication.java
+when u get here, right click and *run java*
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
