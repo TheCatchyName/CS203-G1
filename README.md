@@ -1,10 +1,23 @@
 Hi guys just a note<br> 
-i followed a course from udemy to get to this point but i rushed it so i don't understand every single thing<br>
-but i believe its enough for what we want to do :D<br>
+I followed a course from udemy to get to this point (i believed i sent it to the tele grp) <br>
+if not here's the link if you guys wna watch it to understand how i got to this point<br>
+[link](https://www.udemy.com/share/101Wxy3@nc9eKxC5TKjPCHvYfq_EDELAEoRGgHDyofSt_cuLW3mEZmsEwebh0z3PPorBmobO6A==/)
+but I rushed it so i don't understand every single thing<br>
+but I believe its enough for what we want to do :D<br>
 
-## HOW TO RUN
+## Dependencies/required tools
+
+⋅⋅* Node v8+ for npm
+⋅⋅* Visual Studio Code - Latest Version
+⋅⋅* Java 8+
+⋅⋅* Eclipse - Oxygen+ - (Embedded Maven From Eclipse) (i didn't use eclipse i just use VSC for both spring and react)
+
+## Debugging and course tools
+[link to main page where i referenced the project from!](https://github.com/in28minutes/full-stack-with-react-and-spring-boot)
+
+# HOW TO RUN
 if you notice there are two main files frontend and restful-web-services 
-## frontend 
+# frontend 
 is run using REACT so when u click on it there will be another README file explaining how to run it.
 but basically just run 
 ### `npm start`
@@ -19,15 +32,16 @@ then run
 it should auto pop up, if it doesn't go to
 *localhost:4200*
 
-## restful-web-services 
-this basically handles our API calls and when u run it<br>
-it will open localhost:8080 BUT cuz i added some jwt thing so its encrypted for security reasons.
+# restful-web-services 
+navigate to 
+```
 restful-web-services/src/com/myapp/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
-
+```
 ### RestfulWebServicesApplication.java
 when u get here, right click and *run java*
+make sure you're using cmd , (bash doesn't work as confirmed by minh hahah)
 
-## check out the db 
+## Check out the db 
 After running the SPRING<br>
 go to localhost:8080/h2-console
 you'll see some login page 
