@@ -23,9 +23,9 @@ but basically just run
 ### `npm start`
 
 if it doesn't work try (in that order)
-`npm cache clean --force`
-`npm rebuild`
-`npm install`
+ <br> `npm cache clean --force`
+ <br>`npm rebuild`
+ <br>`npm install`
 then run 
 `npm start`
 
@@ -40,6 +40,7 @@ restful-web-services/src/com/myapp/rest/webservices/restfulwebservices/RestfulWe
 ### RestfulWebServicesApplication.java
 when u get here, right click and *run java*
 make sure you're using cmd , (bash doesn't work as confirmed by minh hahah)
+if its sucessful you should see a giant SPRING word.
 
 ## Check out the db 
 After running the SPRING<br>
@@ -50,8 +51,7 @@ you'll see some login page
 
 kinda like that ^ make sure the JDBC URL: is exactly like that or it won't work 
  ### jdbc:h2:mem:testdb
-
-when u get in its pretty self explanatory
+ 
 
 
 
