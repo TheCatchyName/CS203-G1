@@ -1,7 +1,7 @@
-Hi guys just a note<br> 
+## Hi guys just a note<br> 
 I followed a course from udemy to get to this point (i believed i sent it to the tele grp) <br>
 if not here's the link if you guys wna watch it to understand how i got to this point<br>
-[link](https://www.udemy.com/share/101Wxy3@nc9eKxC5TKjPCHvYfq_EDELAEoRGgHDyofSt_cuLW3mEZmsEwebh0z3PPorBmobO6A==/)
+[link](https://www.udemy.com/share/101Wxy3@nc9eKxC5TKjPCHvYfq_EDELAEoRGgHDyofSt_cuLW3mEZmsEwebh0z3PPorBmobO6A==/) alternatively if yall dw to buy the course yall can just use my acc to watch!
 but I rushed it so i don't understand every single thing<br>
 but I believe its enough for what we want to do :D<br>
 
