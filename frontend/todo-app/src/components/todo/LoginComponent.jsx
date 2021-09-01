@@ -1,5 +1,9 @@
+
 import React, { Component } from 'react'
 import AuthenticationService from './AuthenticationService.js'
+import { Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+
 
 class LoginComponent extends Component {
 
@@ -45,19 +49,43 @@ class LoginComponent extends Component {
     render() {
         return (
             <div>
-                <h1>Login</h1>
+                <h1 className ="pt-5">Welcome Back {this.state.username} !</h1>
                 <div className="container">
-                    {/*<ShowInvalidCredentials hasLoginFailed={this.state.hasLoginFailed}/>*/}
-                    {this.state.hasLoginFailed && <div className="alert alert-warning">Invalid Credentials</div>}
-                    {this.state.showSuccessMessage && <div>Login Sucessful</div>}
-                    {/*<ShowLoginSuccessMessage showSuccessMessage={this.state.showSuccessMessage}/>*/}
-                    User Name: <input type="text" name="username" value={this.state.username} onChange={this.handleChange} />
-                    Password: <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
-                    <button className="btn btn-success" onClick={this.loginClicked}>Login</button>
+                    <div className="row row align-items-center">
+                        <div className="col-sm">
+                        <Image src="https://getthematic.com/insights/content/images/wordpress/2019/01/shutterstock_1112175710-1.jpg" fluid />
+                        </div>
+                        <div className="col-md">
+                            {this.state.hasLoginFailed && <div className="alert alert-warning">Invalid Credentials</div>}
+                            {this.state.showSuccessMessage && <div>Login Sucessful</div>}
+                        <form>
+                        
+                            <div className="form-group">
+                                <label>User Name</label>
+                                <input type="text" className="form-control" name="username" placeholder="Enter Username" value={this.state.username} onChange={this.handleChange}/>
+                            </div>
+                            <div className="form-group">
+                                <label>Password</label>
+                                <input type="password" className="form-control" name="password" placeholder="Enter password" value={this.state.password} onChange={this.handleChange}/>
+                            </div>
+
+                            <div className="form-group">
+                                <div className="custom-control custom-checkbox">
+                                    <input type="checkbox" className="custom-control-input"/>
+                                    <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
+                                </div>
+                            </div>
+                            <button type="submit" className="btn btn-primary btn-block" onClick={this.loginClicked} >Submit</button>
+                            <p className="forgot-password text-right">Forgot <a href="#">password?</a></p>
+                            <p className ="forgot-password text-right">A new user? <Link className="new user text-right" to="/signup">signup</Link></p>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </div>
         )
     }
 }
 
 export default LoginComponent
+
