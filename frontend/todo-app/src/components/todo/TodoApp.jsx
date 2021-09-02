@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import AuthenticatedRoute from './AuthenticatedRoute.jsx'
 import LoginComponent from './LoginComponent.jsx'
 import ListTodosComponent from './ListTodosComponent.jsx'
@@ -9,7 +9,7 @@ import FooterComponent from './FooterComponent.jsx'
 import LogoutComponent from './LogoutComponent.jsx'
 import WelcomeComponent from './WelcomeComponent.jsx'
 import TodoComponent from './TodoComponent.jsx'
-import SignupComponent from './LoginComponent.jsx'
+import SignupComponent from './SignupComponent.jsx'
 
 class TodoApp extends Component {
     render() {
