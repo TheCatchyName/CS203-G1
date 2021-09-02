@@ -8,4 +8,5 @@ public class BcryptEncoderTest{
         String encodedString = encoder.encode("password");
         System.out.println(encodedString);
     }
+}
 

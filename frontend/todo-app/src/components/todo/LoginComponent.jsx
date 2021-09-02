@@ -68,16 +68,8 @@ class LoginComponent extends Component {
                                     <label>Password</label>
                                     <input type="password" className="form-control" name="password" placeholder="Enter password" value={this.state.password} onChange={this.handleChange} />
                                 </div>
-
-                                <div className="form-group">
-                                    <div className="custom-control custom-checkbox">
-                                        <input type="checkbox" className="custom-control-input" />
-                                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
-                                    </div>
-                                </div>
                                 <button type="submit" className="btn btn-primary btn-block" onClick={this.loginClicked} >Submit</button>
-                                <p className="forgot-password text-right">Forgot <a href="#">password?</a></p>
-                                <p className="forgot-password text-right">A new user? <Link className="new user text-right" to="/signup">signup</Link></p>
+                                <p className="forgot-password text-center">Forgot <a href="#">password?</a> or new to the app? <Link className="new user text-right" to="/signup">signup</Link></p>
                             </form>
                         </div>
                     </div>
